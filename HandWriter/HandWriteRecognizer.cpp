@@ -181,8 +181,8 @@ bool Character::addPoint(int strokeId, double x, double y){
 void Character::clear(){
     strokeCount = 0;
     lastStrokeId = -1;
-    width = DEAFULT_WIDTH;
-    height = DEAFULT_HEIGHT;
+    //width = DEAFULT_WIDTH;
+    //height = DEAFULT_HEIGHT;
     strokes.clear();
 }
 
